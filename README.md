@@ -64,12 +64,31 @@ In complex indoor environments, dead zones and signal degradation are common cha
   - Random Forest: MAE = 16.4°, R² = 0.808
 - **Heatmaps**: Optimal RIS configuration resulted in significantly improved power distribution across 50 receiver points
 
+- AI Model  
+
+We implemented a reinforcement learning based Deep Q-Network (DQN) model to optimize RIS configuration. The state of the system is defined by key parameters such as receiver’s position (X, Y coordinates), RIS configuration angles, and received power at receiver’s position for different angles.  
+
+ 
+
+To train the model, we used a dataset generated though Wireless InSite simulations. We developed a script to automate the simulation process where the RIS was configured for each angle from –170° to 170°. The script collected received power values at different receiver positions, creating a comprehensive dataset for AI model training.  
+
+ 
+
+The AI agent interacts with the environment by selecting an RIS reflection angle from the predefined range. It explores different angles to determine the optimal angle that enhances signal power. The agent receives awards or penalties based on how well the chosen angle enhances received signal power. The reward function is directly based on the received power level, meaning higher power values result in higher rewards. This guides the AI agent towards optimal angle selection. Through iterative learning and experience, the model refines its decision-making process to optimize reflection angles and maximize received power at different receiver positions.  
+ 
+
+The results of using Deep Q-Network (DQN) algorithm demonstrated a good correlation between predicted and optimal RIS reflection angles with high R² score (0.979) and low Mean Absolute Error (5.316).
+
 ![image](https://github.com/user-attachments/assets/698caeb1-f272-44f8-9773-bc37cf66435f)
 ![image](https://github.com/user-attachments/assets/a77844b3-5b7d-4d4c-bf3a-69e274259e09)
 ![image](https://github.com/user-attachments/assets/94a6d4d5-71b6-4684-af57-3ef5adb1e7c7)
 
+![image](https://github.com/user-attachments/assets/36b17567-2be6-4c01-aee5-0f2b2489d5b9)
 
-<img width="379" alt="image" src="https://github.com/user-attachments/assets/a362c971-4224-40b7-842f-a3875343c504" />
+
+![image](https://github.com/user-attachments/assets/2db5cefa-551c-4220-b885-829c6da50e38)
+
+
 
 
 
