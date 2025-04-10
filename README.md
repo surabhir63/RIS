@@ -84,7 +84,7 @@ The results of using Deep Q-Network (DQN) algorithm demonstrated a good correlat
 ![image](https://github.com/user-attachments/assets/94a6d4d5-71b6-4684-af57-3ef5adb1e7c7)
 
 
-**Wireless-Insite Without RIS and With RIS Simulation results**
+<p align="center">**Wireless-Insite Without RIS and With RIS Simulation results**</p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/36b17567-2be6-4c01-aee5-0f2b2489d5b9" width="45%" />
   <img src="https://github.com/user-attachments/assets/2db5cefa-551c-4220-b885-829c6da50e38" width="45%" />
