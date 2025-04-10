@@ -65,6 +65,15 @@ In complex indoor environments, dead zones and signal degradation are common cha
 - **Heatmaps**: Optimal RIS configuration resulted in significantly improved power distribution across 50 receiver points
 
 ![image](https://github.com/user-attachments/assets/698caeb1-f272-44f8-9773-bc37cf66435f)
+![image](https://github.com/user-attachments/assets/a77844b3-5b7d-4d4c-bf3a-69e274259e09)
+![image](https://github.com/user-attachments/assets/94a6d4d5-71b6-4684-af57-3ef5adb1e7c7)
+
+
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/a362c971-4224-40b7-842f-a3875343c504" />
+
+
+
+
 
 
 ## Repository Structure
