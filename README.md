@@ -38,10 +38,7 @@ In complex indoor environments, dead zones and signal degradation are common cha
 - DQN-based reinforcement learning to predict optimal RIS reflection angles
 - Supervised learning baseline models (Random Forest, K-Nearest Neighbors) for performance comparison
 - Software-defined radio experiments with DragonRadio
-
-
-
-Visualizations of power distributions and model accuracy to assess optimization impact
+- Visualizations of power distributions and model accuracy to assess optimization impact
 ---
 
 ## System Architecture
@@ -67,7 +64,8 @@ Visualizations of power distributions and model accuracy to assess optimization 
   - Random Forest: MAE = 16.4°, R² = 0.808
 - **Heatmaps**: Optimal RIS configuration resulted in significantly improved power distribution across 50 receiver points
 
----
+![image](https://github.com/user-attachments/assets/698caeb1-f272-44f8-9773-bc37cf66435f)
+
 
 ## Repository Structure
 ```
@@ -82,5 +80,6 @@ Reconfigurable_Intelligent_Surface/
 ```
 
 ---
+![Uploading image.png…]()
 
 
