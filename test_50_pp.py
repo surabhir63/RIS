@@ -2,13 +2,13 @@ import pandas as pd
 import numpy as np
 import gym
 from stable_baselines3 import DQN  
-from env_pp import RISAngleEnv  # ✅ Import the custom environment
+from env_pp import RISAngleEnv  #Import the custom environment
 
-# ✅ Load trained DQN model
+#Load DQN model
 env = RISAngleEnv("rl_training_data_50.csv", "best_angles_call.csv")  # Ensure dataset contains power info
-model = DQN.load("ris_angle_rl_model_tuned_500")  # ✅ Ensure correct model name
+model = DQN.load("ris_angle_rl_model_tuned_500")  # Ensure correct model name
 
-# ✅ Test DQN model
+#Test DQN model
 results = []
 obs = env.reset()
 done = False
